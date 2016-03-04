@@ -1,0 +1,24 @@
+<form class="form-group">
+    <label for="alias">Alias</label>
+    <input type="text" ng-model="alias" id="alias" />
+    <label for="first_name">First Name: </label>
+    <input type="text" ng-model="first_name" id="first_name" />
+    <label for="last_name">Last Name: </label>
+    <input type="text" ng-model="last_name" id="last_name" />
+    <label for="city">City: </label>
+    <input type="text" ng-model="city" id="city" />
+
+    <select ng-model="primary_power">
+        <option value="invisibility">Invisibility</option>
+        <option value="flight">Flight</option>
+        <option value="super_speed">Super Speed</option>
+        <option value="heat_vision">Heat Vision</option>
+        <option value="super_strength">Super Strength</option>
+        <option value="accelerated_healing">Accelerated Healing</option>
+        <option value="power_blast">Power Blast</option>
+        <option value="animal_affinity">Animal Affinity</option>
+    </select>
+
+    <button ng-click="submitHero()">Submit</button>
+
+</form>
